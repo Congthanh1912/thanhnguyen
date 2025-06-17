@@ -30,7 +30,8 @@ namespace haha
 
                  Console.WriteLine("a la so le");
              }*/
-            
+            string luachonnguoichoi = Console.ReadLine();
+            Console.WriteLine($"lua chon cua ban la {luachonnguoichoi}");
             Random songaunhien = new Random();
             int c = songaunhien.Next(4);
             string luachon;
@@ -46,23 +47,22 @@ namespace haha
             {
                 luachon = "bao";
             }
-            string luachonnguoichoi= Console.ReadLine();
-            Console.WriteLine($"lua chon cua ban la {luachonnguoichoi}");
+          
             if (luachonnguoichoi == luachon)
             {
-                Console.WriteLine("hoa" + $"lua chon cua may la {luachon}");
+                Console.WriteLine("hoa");
             }
             else if 
                 (luachonnguoichoi == "keo" && luachon == "bua"
                 || luachonnguoichoi == "bua" && luachon == "bao"
                 || luachonnguoichoi == "bao" && luachon == "keo")
             {
-                Console.WriteLine("thua" + $"lua chon cua may la {luachon}");
+                Console.WriteLine("thua");
             }
             else 
-            { Console.WriteLine("thang" + $"lua chon cua may la {luachon}");                
+            { Console.WriteLine("thang" );                
             }
-            
+            Console.WriteLine($"lua chon cua may la {luachon}");
 
 
 
