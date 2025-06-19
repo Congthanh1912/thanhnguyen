@@ -19,19 +19,9 @@ namespace haha
              Console.WriteLine($"tien nhan{tiennhan}");*/
 
         {
-            /* int a = int.Parse(Console.ReadLine());
-
-             if (a % 2 == 0)
-             {
-                 Console.WriteLine("a la so chan");
-             }
-             else
-             {
-
-                 Console.WriteLine("a la so le");
-             }*/
+            /*Console.WriteLine("lua chon cua ban la");
             string luachonnguoichoi = Console.ReadLine();
-            Console.WriteLine($"lua chon cua ban la {luachonnguoichoi}");
+            
             Random songaunhien = new Random();
             int c = songaunhien.Next(4);
             string luachon;
@@ -57,18 +47,23 @@ namespace haha
                 || luachonnguoichoi == "bua" && luachon == "bao"
                 || luachonnguoichoi == "bao" && luachon == "keo")
             {
-                Console.WriteLine("thua");
+                Console.WriteLine("thua vy ngu nhu chó");
             }
             else 
             { Console.WriteLine("thang" );                
             }
-            Console.WriteLine($"lua chon cua may la {luachon}");
+            Console.WriteLine($"lua chon cua may la {luachon}");*/
 
+            /*// vong lap//
+            for (int a = 1; a <= 9; a++)
+                for (int b = 0; b <= 9; b++)
+                    for (int c = 0; c <= 9; c++)
+                        
+                            if (  a + b - c <=9)
 
-
-
-
-
+            {
+                Console.WriteLine($"{0}{1}{2}{3}", a, b, c, a + b + c);
+            }   */          
 
         }
     }
